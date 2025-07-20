@@ -1,0 +1,29 @@
+.header_nav {
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    justify-self: center;
+    padding: 10px 150px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.header_nav-items {
+    display: flex;
+}
+
+li {
+    margin-right: 60px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.home {
+    list-style:georgian;
+}

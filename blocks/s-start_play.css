@@ -1,0 +1,24 @@
+.start_play {
+  display: flex;
+  margin-top: 100px;
+}
+
+.right_hand {
+  height: 100%;
+  width: 100%;
+}
+
+.play {
+  position: absolute;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  opacity: 26%;
+  font-size: 25px;
+}
+
+.left_hand {
+  height: 100%;
+  width: 100%;
+  margin-top: 250px;
+}/*# sourceMappingURL=s-start_play.css.map */

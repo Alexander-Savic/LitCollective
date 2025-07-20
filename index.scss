@@ -1,0 +1,10 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Manrope';
+}
+
+@import "./blocks/header.scss";
+@import "./blocks/s-bus_sol.scss";
+@import "./blocks/fonts_and_text.scss";
+@import "./blocks/s-start_play.scss";
