@@ -3,7 +3,6 @@
     max-width: 1140px;
     width: 100%;
     justify-self: center;
-    padding: 10px 150px;
 }
 
 .logo {
@@ -12,10 +11,11 @@
 
 .header_nav-items {
     display: flex;
+    padding: 0px;
 }
 
 li {
-    margin-right: 60px;
+    margin-left: 60px;
     list-style: none;
 }
 

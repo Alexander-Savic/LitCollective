@@ -4,6 +4,10 @@
     font-family: 'Manrope';
 }
 
+body {
+    margin: 10px;
+}
+
 @import "./blocks/header.scss";
 @import "./blocks/s-bus_sol.scss";
 @import "./blocks/fonts_and_text.scss";

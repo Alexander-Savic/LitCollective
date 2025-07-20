@@ -25,6 +25,7 @@
   font-size: 16px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .b-about_us {
@@ -34,4 +35,5 @@
   padding: 20px 30px;
   font-size: 16px;
   font-weight: 100;
+  cursor: pointer;
 }/*# sourceMappingURL=s-bus_sol.css.map */
