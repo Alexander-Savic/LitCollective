@@ -9,9 +9,9 @@
 </head>
 <body>
   <header>
-    <div class="header_nav">
-      <img src="./icons/logo.svg" alt="" class="logo">
-      <ul class="header_nav-items">
+    <img src="./icons/logo.svg" alt="" class="logo">
+    <nav class="nav-menu">    
+      <ul class="nav-menu-items">
         <li><a href="#" class="home">home</a></li>
         <li><a href="#" class="cases_studies">cases studies</a></li>
         <li><a href="#" class="about_us">about us</a></li>
@@ -19,7 +19,12 @@
         <li><a href="#" class="what_we_do">what we do</a></li>
         <li><a href="#" class="contact">contact</a></li>
       </ul>
-    </div>
+    </nav>    
+    <button class="hamburger-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </header>
   <section class="business_solutions">
     <div class="nominee">
@@ -28,7 +33,7 @@
     </div>
     <div class="text_business">
       <h1 style="font-weight: 200;">We design experiences that move businesses to the future.</h1>
-      <div style="display: flex; margin-top: 40px; gap: 60px;">
+      <div style="display: flex; margin-top: 40px; width: 100%; max-width: 460px;">
         <button class="play_showreel">Play showreel <img src="./icons/Vector.svg" alt="" class="strelka"></button>
         <button class="b-about_us">About us</button>
       </div>
@@ -36,11 +41,12 @@
   </section>
   <section class="start_play">
     <img src="./pictures/right_hand.png" alt="" class="right_hand">
-    <div style="display: flex; position: relative; align-items: center; justify-content: center;">
+    <div style="display: flex; position: relative; align-items: center; justify-content: center; width: 100%; max-width: 760px;">
       <img src="./pictures/our_people.png" alt="" class="our_people">
-      <button class="play"> PLAY</button>
+      <button class="play">PLAY</button>
     </div>
     <img src="./pictures/left_hand.png" alt="" class="left_hand">
   </section>
+  <script src="/script.js"></script>
 </body>
 </html>

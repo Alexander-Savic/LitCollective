@@ -9,6 +9,9 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+    @media (max-width: 425px) {
+        margin-right: 0;
+    }
 }
 
 .text_business {
@@ -21,19 +24,34 @@
     background-color: transparent;
     color: white;
     border-color: white;
-    padding: 10px 45px;
     font-size: 16px;
     display: flex;
     align-items: center;
     cursor: pointer;
+    width: 100%;
+    gap: 10px;
+    max-width: 220px;
+    justify-content: center;
+    white-space: nowrap;
+    @media (max-width: 425px) {
+        font-size: 12px;
+    }
 }
 
 .b-about_us {
     background-color: transparent;
     color: white;
     border-color: white;
-    padding: 20px 30px;
+    padding: 20px 5px;
     font-size: 16px;
     font-weight: 100;
     cursor: pointer;
+    width: 100%;
+    max-width: 150px;
+    white-space: nowrap;
+    margin-left: auto;
+    @media (max-width: 425px) {
+        font-size: 12px;
+        padding: 15px 5px;
+    }
 }

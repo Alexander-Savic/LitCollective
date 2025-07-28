@@ -9,7 +9,7 @@
 .right_hand {
     height: 100%;
     max-width: 304px;
-    width: 50%;
+    width: 25%;
     object-fit: contain;
     @media (max-width: 1024px) {
         max-width: 250px;
@@ -39,8 +39,8 @@
 .left_hand {
     height: 100%;
     max-width: 312px;
-    width: 50%;
-    margin-top: 300px;
+    width: 25%;
+    margin-top: 30%;
     object-fit: contain;
     @media (max-width: 1024px) {
         max-width: 250px;
